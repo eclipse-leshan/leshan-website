@@ -1,1 +1,1 @@
-<?php header('Location: http://github.com/jvermillard/leshan'); ?>
+<?php header('Location: http://github.com/eclipse/leshan'); ?>
