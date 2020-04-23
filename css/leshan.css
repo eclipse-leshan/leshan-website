@@ -395,14 +395,14 @@ footer ul.nav a:hover {
     text-align: center;
     background-color: #f7fafa;
     color: #363636;
-    padding-bottom: 60px;
+    padding-top: 60px;
 }
 .highlight.who h2 {
     font-size: 2.5em;
     line-height: 1.5em;
     color: #363636;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
+/*    margin-top: 0.5em;
+    margin-bottom: 1em;*/
 }
 .highlight.who a {
     color: #363636;
