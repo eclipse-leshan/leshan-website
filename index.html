@@ -157,6 +157,17 @@
             </div>
         </section>
 
+        <!-- Who is using section -->
+        <section id="who is using">
+            <div class="row highlight who">
+                <div class="container">
+                    <h2>Who's using Eclipse Leshan?</h2>
+                    <div class="row user-logos-container">
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Learn more Section -->
         <section id="learn-more">
             <div class="container">
@@ -269,6 +280,16 @@
         <!-- Custom JavaScript -->
         <script src="js/leshan.js"></script>
 
+        <!-- Who is using script -->
+        <script src="//iot.eclipse.org/assets/js/eclipsefdn.adopters.js"></script>
+        <script>
+            eclipseFdnAdopters.getList({
+               project_id: "iot.leshan",
+               selector: ".user-logos-container",
+               ul_classes: "user-logos",
+               logo_white: false
+            });
+        </script>
 
     </body>
 
